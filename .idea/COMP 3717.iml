@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week12_2022-03-23/lec10_flutter_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week12_2022-03-23/lec10_flutter_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week12_2022-03-23/lec10_flutter_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exams/FinalExam/3717_final/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Exams/FinalExam/3717_final/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Exams/FinalExam/3717_final/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week13_2022-03-30/3717Lec11/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week13_2022-03-30/3717Lec11/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week13_2022-03-30/3717Lec11/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week14_2022-04-06/3717lec12/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week14_2022-04-06/3717lec12/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Lecture/Week14_2022-04-06/3717lec12/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Lab/Week14_2022-04-04/aaron_lab8/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Lab/Week14_2022-04-04/aaron_lab8/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Lab/Week14_2022-04-04/aaron_lab8/.pub" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

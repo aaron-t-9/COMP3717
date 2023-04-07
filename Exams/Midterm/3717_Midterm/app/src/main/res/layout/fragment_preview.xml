@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#72CC6666"
+    android:orientation="vertical"
+    tools:context=".PreviewFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView_previewFrag_hippoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hippo_name_here"
+        android:textAlignment="center"
+        android:textColor="#546E7A"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imageView_previewFrag"
+        android:layout_width="match_parent"
+        android:layout_height="397dp"
+        android:src="@drawable/hippo1" />
+
+</LinearLayout>

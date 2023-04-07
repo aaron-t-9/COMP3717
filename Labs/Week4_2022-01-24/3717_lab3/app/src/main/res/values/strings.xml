@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">aaronTansley_lab4</string>
+    <string name="animals_with_android_by_aaron_tansley">Animals with Android by Aaron Tansley</string>
+    <string name="cats">Cats</string>
+    <string name="dogs">Dogs</string>
+    <string name="animalpic">animalPic</string>
+</resources>

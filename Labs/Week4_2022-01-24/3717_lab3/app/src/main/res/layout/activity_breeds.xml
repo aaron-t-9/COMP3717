@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="false"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.bcit.aarontansley_lab3.BreedsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="183dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:id="@+id/button_breeds_breedOne"
+        android:layout_width="match_parent"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:onClick="breedsButtonHandler"
+        tools:ignore="DuplicateSpeakableTextCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_breeds_breedTwo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="breedsButtonHandler"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_breeds_breedThree"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="breedsButtonHandler"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>

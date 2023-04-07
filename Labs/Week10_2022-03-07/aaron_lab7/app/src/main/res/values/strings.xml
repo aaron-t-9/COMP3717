@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">aaronTansley_lab7</string>
+    <string name="off_leash_parks_in_vancouver">Off Leash Parks in Vancouver</string>
+    <string name="parkname">ParkName</string>
+    <string name="address">Address</string>
+    <string name="location">Location</string>
+</resources>

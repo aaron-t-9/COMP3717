@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#72CC6666"
+    android:orientation="vertical"
+    tools:context=".ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView_contactFrag_header"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:text="@string/contact_us"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView_contactFrag_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/address_123_hippo_way"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_contactFrag_phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_weight="1"
+        android:text="@string/phone_1_888_hippozoo"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView_contactFrag_body"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_weight="1"
+        android:text="@string/we_have_been_getting_many_complaints_that_one_of_our_hippos_is_indeed_a_rhino_if_you_know_which_one_it_is_please_submit_its_name_below"
+        android:textColor="#980B0B" />
+
+    <TextView
+        android:id="@+id/textView_contactFrag_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_weight="1"
+        android:text="@string/hippo_name_here"
+        android:textColor="#5D4037" />
+
+    <EditText
+        android:id="@+id/editText_contactFrag_nameBox"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/enter_name"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/button_contactFrag_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#00DC6565"
+        android:text="@string/submit" />
+
+</LinearLayout>

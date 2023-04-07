@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494367677900",
+    "project_id": "bcitstudents-915ca",
+    "storage_bucket": "bcitstudents-915ca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494367677900:android:964d6aa4c13564295a9169",
+        "android_client_info": {
+          "package_name": "com.bcit.aarontansley_lab6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494367677900-cceirvt78dkl5dk33add5pu0go6gae02.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa4fnntRLSKhDoIdLOn4Dt3XQ1nY-JzJI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494367677900-cceirvt78dkl5dk33add5pu0go6gae02.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

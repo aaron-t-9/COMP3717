@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">aaronTansley_midterm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_inventory">Full Inventory</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="meet_the_hippos">Meet the Hippos!</string>
+    <string name="hippo_name_here">Hippo name here</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="textview">TextView</string>
+    <string name="favourite_food">Favourite Food:</string>
+    <string name="address_123_hippo_way">Address: 123 Hippo Way</string>
+    <string name="phone_1_888_hippozoo">Phone: 1-888-HIPPOZOO</string>
+    <string name="enter_name">Enter name...</string>
+    <string name="we_have_been_getting_many_complaints_that_one_of_our_hippos_is_indeed_a_rhino_if_you_know_which_one_it_is_please_submit_its_name_below">We have been getting many complaints that one of our hippos is indeed a rhino. If you know which one it is please submit its name below.</string>
+    <string name="submit">SUBMIT</string>
+</resources>

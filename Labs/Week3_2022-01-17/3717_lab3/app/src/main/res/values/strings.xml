@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">aaronTansley_lab2</string>
+    <string name="colors_and_songs_by_aaron_tansley">Colors and Songs by Aaron Tansley</string>
+    <string name="song_2">Song 2</string>
+    <string name="song_1">Song 1</string>
+
+    <string-array name="songListTwo">
+        <item>Just A Friend</item>
+        <item>Hungry Like the Wolf</item>
+        <item>Everybody Wants to Rule the World</item>
+        <item>Under Pressure</item>
+        <item>Don\'t Stop Me Now</item>
+    </string-array>
+
+</resources>

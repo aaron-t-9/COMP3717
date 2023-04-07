@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bcit.aarontansley_lab3.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:layout_marginBottom="87dp"
+        android:text="@string/animals_with_android_by_aaron_tansley"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_main_cats"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <Button
+        android:id="@+id/button_main_dogs"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="111dp"
+        android:onClick="buttonHandler"
+        android:text="@string/dogs"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button_main_cats"
+        app:layout_constraintEnd_toStartOf="@+id/button_main_cats"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_main_cats"
+        android:layout_width="117dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="212dp"
+        android:onClick="buttonHandler"
+        android:text="@string/cats"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">aaronTansley_lab6</string>
+    <string name="name">Name:</string>
+    <string name="location">Location:</string>
+    <string name="location_here">Location here</string>
+    <string name="name_here">Name here</string>
+    <string name="first_name">First name</string>
+    <string name="add_person">Add Person</string>
+</resources>

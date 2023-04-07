@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#72CC6666"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/meet_the_hippos"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="TextContrastCheck" />
+
+    <Spinner
+        android:id="@+id/spinner_main_hippoNames"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_main_preview"
+        android:name="com.bcit.aarontansley_midterm.PreviewFragment"
+        android:layout_width="match_parent"
+        android:layout_height="409dp"
+        tools:layout="@layout/fragment_preview" />
+
+    <Button
+        android:id="@+id/button_main_fullInv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#00DC6565"
+        android:text="@string/full_inventory"
+        android:textColor="#975151"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button_main_contactUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#00DC6565"
+        android:text="@string/contact_us"
+        android:textColor="#975151"
+        tools:ignore="TextContrastCheck" />
+
+</LinearLayout>
